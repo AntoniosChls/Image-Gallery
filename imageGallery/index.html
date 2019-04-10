@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+    <div id="Slider">
+        <img name="slide" src="images/pic1.jpg" alt="pic1" id="mainImg">
+
+        <br>
+
+        <div id="Thumbnails" onClick="changeImg()">
+            <img src="images/pic1.jpg" alt="thumb1" width="100px;" class="getOpacity" onclick="goToFirst()" id="Thumb1">
+            <img src=" images/pic2.jpg " alt="thumb2 " width="100px;" class="getOpacity" onclick="goToSecond()" id="Thumb2">
+            <img src="images/pic3.jpg " alt="thumb3 " width="100px;" class="getOpacity" onclick="goToThird()" id="Thumb3">
+
+        </div>
+
+        <br>
+        <br>
+        <div id="timer">
+            <select id="pickTime">
+                <option value="2000">2sec</option>
+                <option value="5000">5sec</option>
+                <option value="10000">10sec</option>
+            </select>
+
+
+            <br>
+            <br>
+
+
+        </div>
+        <button id="play" onclick="playSlider() ">Play</button>
+        <button id="stop" onclick="stopSlider() ">Stop</button>
+        <br>
+        <br>
+
+    </div>
+
+
+</body>
+
+</html>

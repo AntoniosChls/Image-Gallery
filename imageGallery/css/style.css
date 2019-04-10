@@ -1,0 +1,54 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-color: white;
+    }
+    
+    #Slider {
+        text-align: center;
+    }
+    
+    button {
+        color: white;
+        background-color: black;
+        border: none;
+        padding: 5px 15px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        transition: width 2s;
+        cursor: pointer;
+        border: 2px solid White;
+    }
+    
+    button:hover {
+        transition: all .2s ease-in-out;
+        transform: scale(1.1);
+    }
+    
+    #getOpacity:hover {
+        display: none;
+    }
+    
+    .getOpacity {
+        opacity: 0.7;
+    }
+    
+    .getOpacity:hover {
+        opacity: 1;
+        transition: all .2s ease-in-out;
+        transform: scale(1.1)
+    }
+    
+    .goAwayOpacity {
+        opacity: 1;
+    }
+    
+    #Thumbnails {
+        cursor: pointer;
+        display: inline;
+        text-align: center;
+    }
